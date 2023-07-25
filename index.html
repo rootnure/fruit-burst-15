@@ -16,7 +16,7 @@
                colors: {
                   clifford: '#da373d',
                   'color-primary': '#F85559',
-                  'color-custom-black': '#121212',
+                  'color-custom-black': '#121212CD',
                },
                backgroundImage: {
                   'banner-img-1': "url('./images/banner1.png')",
@@ -99,13 +99,15 @@
          </div>
       </nav>
       <!-- banner section -->
-      <section>
+      <section class="relative">
+         <!-- main banner sliders -->
          <div class="carousel w-full">
+            <!-- slider 1 -->
             <div id="slide1" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-1 rounded-none md:rounded-lg">
                   <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] rounded-xl"></div>
-                  <div class="hero-content text-center text-neutral-content py-20">
+                  <div class="hero-content text-center text-neutral-content pt-20 pb-[205px]">
                      <div class="w-fit">
                         <h1 class="mb-6 text-2xl lg:text-7xl font-bold">
                            Exotic tastes at your
@@ -122,6 +124,7 @@
                   <a href="#slide2" class="btn bg-transparent hover:bg-transparent text-white scale-150 border-0">❯</a>
                </div>
             </div>
+            <!-- slider 2 -->
             <div id="slide2" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-2 rounded-none md:rounded-lg">
@@ -143,6 +146,7 @@
                   <a href="#slide3" class="btn bg-transparent hover:bg-transparent text-white scale-150 border-0">❯</a>
                </div>
             </div>
+            <!-- slider 3 -->
             <div id="slide3" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-3 rounded-none md:rounded-lg">
@@ -164,6 +168,7 @@
                   <a href="#slide4" class="btn bg-transparent hover:bg-transparent text-white scale-150 border-0">❯</a>
                </div>
             </div>
+            <!-- slider 4 -->
             <div id="slide4" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-4 rounded-none md:rounded-lg">
@@ -183,6 +188,31 @@
                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide3" class="btn bg-transparent hover:bg-transparent text-white scale-150 border-0">❮</a>
                   <a href="#slide1" class="btn bg-transparent hover:bg-transparent text-white scale-150 border-0">❯</a>
+               </div>
+            </div>
+         </div>
+         <!-- banner overlay -->
+         <div class="absolute -bottom-28 ml-44 w-9/12 hidden 2xl:block">
+            <div class="flex justify-between px-16 py-12 bg-white shadow-lg rounded-lg">
+               <div>
+                  <img src="./images/fruit1.png" alt=""><br>
+                  <h4 class="text-lg text-color-custom-black text-center">Grape</h4>
+               </div>
+               <div>
+                  <img src="./images/fruit2.png" alt=""><br>
+                  <h4 class="text-lg text-color-custom-black text-center">Orange</h4>
+               </div>
+               <div>
+                  <img src="./images/fruit3.png" alt=""><br>
+                  <h4 class="text-lg text-color-custom-black text-center">Mango</h4>
+               </div>
+               <div>
+                  <img src="./images/fruit4.png" alt=""><br>
+                  <h4 class="text-lg text-color-custom-black text-center">Strawberry</h4>
+               </div>
+               <div>
+                  <img src="./images/fruit5.png" alt=""><br>
+                  <h4 class="text-lg text-color-custom-black text-center">Pomegranate</h4>
                </div>
             </div>
          </div>
