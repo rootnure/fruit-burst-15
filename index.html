@@ -4,7 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Fruit Burst</title>
+   <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
    <!-- DaisyUI and Tailwind CDN links -->
    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
    <script src="https://cdn.tailwindcss.com"></script>
@@ -99,7 +100,7 @@
          </div>
       </nav>
       <!-- banner section -->
-      <section class="relative">
+      <section class="relative mb-16 xl:mb-44">
          <!-- main banner sliders -->
          <div class="carousel w-full">
             <!-- slider 1 -->
@@ -115,7 +116,9 @@
                            doorstep
                         </h1>
                         <p class="mb-8 text-xl">We supply highly quality organic products</p>
-                        <button class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop Now</button>
+                        <button
+                           class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop
+                           Now</button>
                      </div>
                   </div>
                </div>
@@ -137,7 +140,9 @@
                            doorstep
                         </h1>
                         <p class="mb-8 text-xl">We supply highly quality organic products</p>
-                        <button class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop Now</button>
+                        <button
+                           class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop
+                           Now</button>
                      </div>
                   </div>
                </div>
@@ -159,7 +164,9 @@
                            doorstep
                         </h1>
                         <p class="mb-8 text-xl">We supply highly quality organic products</p>
-                        <button class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop Now</button>
+                        <button
+                           class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop
+                           Now</button>
                      </div>
                   </div>
                </div>
@@ -181,7 +188,9 @@
                            doorstep
                         </h1>
                         <p class="mb-8 text-xl">We supply highly quality organic products</p>
-                        <button class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop Now</button>
+                        <button
+                           class="btn bg-color-primary border-0 text-white hover:text-color-primary font-bold normal-case text-xl">Shop
+                           Now</button>
                      </div>
                   </div>
                </div>
@@ -219,8 +228,50 @@
       </section>
    </header>
 
-   <main>
-
+   <main class="container mx-auto md:px-2 lg:px-10">
+      <!-- Deal of the day section -->
+      <section>
+         <!-- section header -->
+         <div class="flex flex-col items-center lg:flex-row justify-between mb-12 gap-y-12">
+            <div class="md:w-9/12 lg:w-6/12 text-center lg:text-left">
+               <h3 class="text-5xl font-extrabold mb-6">Deal of the day</h3>
+               <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                  literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <!-- countdown -->
+            <div class="">
+               <div class="flex items-center gap-5 text-center auto-cols-max">
+                  <div class="flex flex-col">
+                     <h3 class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:15;"></span>
+                     </h3>
+                     <span>Days</span>
+                  </div>
+                  <div class="scale-150">:</div>
+                  <div class="flex flex-col">
+                     <h3 class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:10;"></span>
+                     </h3>
+                     <span>Hours</span>
+                  </div>
+                  <div class="scale-150">:</div>
+                  <div class="flex flex-col">
+                     <h3 class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:24;"></span>
+                     </h3>
+                     <span>Minutes</span>
+                  </div>
+                  <div class="scale-150">:</div>
+                  <div class="flex flex-col">
+                     <h3 class="countdown font-mono text-5xl font-extrabold">
+                        <span style="--value:54;"></span>
+                     </h3>
+                     <span>Seconds</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
    </main>
 
    <footer>
