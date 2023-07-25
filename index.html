@@ -47,7 +47,7 @@
 <body class="font-lato">
    <header class="container mx-auto md:px-2 lg:px-10">
       <nav class="my-3 lg:my-12">
-         <div class="xl:bg-color-primary justify-between rounded-full w-full px-8 py-3">
+         <div class="xl:bg-color-primary justify-between rounded-full w-full px-5 py-3">
             <div class="flex justify-between items-center">
                <!-- lg:nav-menu -->
                <div class="hidden xl:flex">
@@ -70,23 +70,36 @@
                <!-- sm:nav-menu -->
                <div class="dropdown">
                   <label tabindex="0" class="btn btn-ghost xl:hidden scale-150">
-                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                           d="M4 6h16M4 12h8m-8 6h16" />
-                     </svg>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
                   </label>
                   <div class="relative">
                      <ul tabindex="0"
-                        class="absolute right-5 menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
+                        class="absolute right-1 menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-64">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
                         <li><a>All Fruits</a></li>
+                        <li>
+                           <!-- sm:search -->
+                           <div class="xl:hidden">
+                              <div class="relative flex justify-end">
+                                 <input type="text" placeholder="Search Here" class="input rounded-full w-full pr-16 border-2 border-color-primary" />
+                                 <button class="btn bg-transparent absolute top-0 right-0 border-0 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                       stroke="currentColor" class="w-6 h-6">
+                                       <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                    </svg>
+                                 </button>
+                              </div>
+                           </div>
+                        </li>
                      </ul>
                   </div>
                </div>
-               <!-- search -->
+               <!-- lg:search -->
                <div class="hidden xl:block">
                   <div class="relative flex justify-end">
                      <input type="text" placeholder="Search Here" class="input rounded-full w-80 pr-16" />
@@ -110,7 +123,7 @@
             <div id="slide1" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-1 rounded-none md:rounded-lg">
-                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] rounded-xl"></div>
+                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] md:rounded-lg"></div>
                   <div class="hero-content text-center text-neutral-content pt-20 pb-[205px]">
                      <div class="w-fit">
                         <h1 class="mb-6 text-2xl lg:text-7xl font-bold">
@@ -134,7 +147,7 @@
             <div id="slide2" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-2 rounded-none md:rounded-lg">
-                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] rounded-xl"></div>
+                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] md:rounded-lg"></div>
                   <div class="hero-content text-center text-neutral-content py-20">
                      <div class="w-fit">
                         <h1 class="mb-6 text-2xl lg:text-7xl font-bold">
@@ -158,7 +171,7 @@
             <div id="slide3" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-3 rounded-none md:rounded-lg">
-                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] rounded-xl"></div>
+                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] md:rounded-lg"></div>
                   <div class="hero-content text-center text-neutral-content py-20">
                      <div class="w-fit">
                         <h1 class="mb-6 text-2xl lg:text-7xl font-bold">
@@ -182,7 +195,7 @@
             <div id="slide4" class="carousel-item relative w-full">
                <!-- banner content -->
                <div class="hero min-h-fit bg-banner-img-4 rounded-none md:rounded-lg">
-                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] rounded-xl"></div>
+                  <div class="hero-overlay bg-gradient-to-b from-[#121212FF] to-[#12121200] md:rounded-lg"></div>
                   <div class="hero-content text-center text-neutral-content py-20">
                      <div class="w-fit">
                         <h1 class="mb-6 text-2xl lg:text-7xl font-bold">
