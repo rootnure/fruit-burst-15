@@ -24,6 +24,7 @@
                   'banner-img-2': "url('./images/banner2.png')",
                   'banner-img-3': "url('./images/banner3.png')",
                   'banner-img-4': "url('./images/banner4.png')",
+                  'team-img': "url('./images/team.png')",
                }
             }
          }
@@ -230,7 +231,7 @@
 
    <main class="container mx-auto md:px-2 lg:px-10">
       <!-- Deal of the day section -->
-      <section class="mb-24">
+      <section class="my-24">
          <!-- section header -->
          <div class="flex flex-col items-center lg:flex-row justify-between mb-12 gap-y-12">
             <div class="md:w-9/12 lg:w-6/12 text-center lg:text-left">
@@ -359,7 +360,39 @@
             </div>
          </div>
          <div class="mt-16 flex justify-center">
-            <button class="px-8 py-5 bg-color-primary normal-case text-xl font-extrabold text-white rounded-lg cursor-pointer hover:bg-gray-200 hover:text-color-primary ease-in-out duration-100">Shop All</button>
+            <button
+               class="px-8 py-5 bg-color-primary normal-case text-xl font-extrabold text-white rounded-lg cursor-pointer hover:bg-gray-200 hover:text-color-primary ease-in-out duration-100">Shop
+               All</button>
+         </div>
+      </section>
+
+      <!-- Meet the team section -->
+      <section class="my-24">
+         <div class="hero min-h-fit bg-team-img rounded-lg">
+            <div class="hero-overlay bg-color-custom-black opacity-70 rounded-lg"></div>
+            <div class="hero-content text-center text-neutral-content">
+               <div class="w-9/12 py-24">
+                  <h3 class="mb-6 text-5xl font-extrabold">Meet the team</h3>
+                  <p class="mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                     classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                  <!-- team member cards container -->
+                  <div>
+                     <!-- card 1 -->
+                     <!-- <div class="card w-96 bg-transparent shadow-xl">
+                        <figure class="px-10 pt-10">
+                           <img src="./images/member1.png" alt="Awlad Hossain" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                           <h2 class="card-title">Awlad Hossain</h2>
+                           <p>Fruits Expert</p>
+                           <div class="">
+                              <i class="fa-brands fa-fb"></i>
+                           </div>
+                        </div>
+                     </div> -->
+                  </div>
+               </div>
+            </div>
          </div>
       </section>
    </main>
