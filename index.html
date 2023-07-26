@@ -248,7 +248,7 @@
 
    <main class="container mx-auto md:px-2 lg:px-10">
       <!-- Deal of the day section -->
-      <section class="mb-24">
+      <section id="deal_of_the_day" class="mb-24">
          <!-- section header -->
          <div class="flex flex-col items-center lg:flex-row justify-between mb-12 gap-y-12">
             <div class="md:w-9/12 lg:w-6/12 text-center lg:text-left">
@@ -311,7 +311,7 @@
                      <input type="radio" name="fruit-1-rating" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="card-actions">
-                     <button class="text-color-primary">Details</button>
+                     <a class="text-color-primary" href="#deal_apple">Details</a>
                   </div>
                </div>
             </div>
@@ -332,7 +332,7 @@
                      <input type="radio" name="fruit-2-rating" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="card-actions">
-                     <button class="text-color-primary">Details</button>
+                     <a class="text-color-primary" href="#deal_orange">Details</a>
                   </div>
                </div>
             </div>
@@ -353,7 +353,7 @@
                      <input type="radio" name="fruit-3-rating" class="mask mask-star-2 bg-orange-400" checked />
                   </div>
                   <div class="card-actions">
-                     <button class="text-color-primary">Details</button>
+                     <a class="text-color-primary" href="#deal_red_dragon">Details</a>
                   </div>
                </div>
             </div>
@@ -374,7 +374,86 @@
                      <input type="radio" name="fruit-4-rating" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="card-actions">
-                     <button class="text-color-primary">Details</button>
+                     <a class="text-color-primary" href="#deal_banana">Details</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- all modals here -->
+         <div>
+            <!-- card 1 Modal -->
+            <div class="modal" id="deal_apple">
+               <div class="modal-box text-center">
+                  <img src="./images/fruit6.png" alt="Apple" class="rounded-xl mx-auto w-40 mb-6" />
+                  <h3 class="text-gray-900 text-4xl font-extrabold mb-6">Apples</h3>
+                  <p class="text-color-custom-black mb-8">Grab the deal with our best price. Squeeze the maximum benefits from this deal of the day.</p>
+                  <div class="rating mb-8">
+                     <input type="radio" name="fruit-1-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-1-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-1-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-1-modal-rating" class="mask mask-star-2 bg-orange-400" checked />
+                     <input type="radio" name="fruit-1-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action justify-center mt-0 mb-6">
+                     <a href="#deal_of_the_day" class="btn bg-white border border-color-primary text-color-primary font-bold">Close</a>
+                     <a href="" class="btn bg-color-primary text-white hover:text-color-primary font-bold">Buy Now</a>
+                  </div>
+               </div>
+            </div>
+            <!-- card 2 Modal -->
+            <div class="modal" id="deal_orange">
+               <div class="modal-box text-center">
+                  <img src="./images/fruit7.png" alt="Orange" class="rounded-xl mx-auto w-52 mb-6" />
+                  <h3 class="text-gray-900 text-4xl font-extrabold mb-6">Orange</h3>
+                  <p class="text-color-custom-black mb-8">Grab the deal with our best price. Squeeze the maximum benefits from this deal of the day.</p>
+                  <div class="rating mb-8">
+                     <input type="radio" name="fruit-2-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-2-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-2-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-2-modal-rating" class="mask mask-star-2 bg-orange-400" checked />
+                     <input type="radio" name="fruit-2-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action justify-center mt-0 mb-6">
+                     <a href="#deal_of_the_day" class="btn bg-white border border-color-primary text-color-primary font-bold">Close</a>
+                     <a href="" class="btn bg-color-primary text-white hover:text-color-primary font-bold">Buy Now</a>
+                  </div>
+               </div>
+            </div>
+            <!-- card 3 Modal -->
+            <div class="modal" id="deal_red_dragon">
+               <div class="modal-box text-center">
+                  <img src="./images/fruit8.png" alt="Apple" class="rounded-xl mx-auto w-52 mb-6" />
+                  <h3 class="text-gray-900 text-4xl font-extrabold mb-6">Red Dragon</h3>
+                  <p class="text-color-custom-black mb-8">Grab the deal with our best price. Squeeze the maximum benefits from this deal of the day.</p>
+                  <div class="rating mb-8">
+                     <input type="radio" name="fruit-3-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-3-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-3-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-3-modal-rating" class="mask mask-star-2 bg-orange-400" checked />
+                     <input type="radio" name="fruit-3-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action justify-center mt-0 mb-6">
+                     <a href="#deal_of_the_day" class="btn bg-white border border-color-primary text-color-primary font-bold">Close</a>
+                     <a href="" class="btn bg-color-primary text-white hover:text-color-primary font-bold">Buy Now</a>
+                  </div>
+               </div>
+            </div>
+            <!-- card 4 Modal -->
+            <div class="modal" id="deal_banana">
+               <div class="modal-box text-center">
+                  <img src="./images/fruit9.png" alt="Apple" class="rounded-xl mx-auto w-52 mb-6" />
+                  <h3 class="text-gray-900 text-4xl font-extrabold mb-6">Banana</h3>
+                  <p class="text-color-custom-black mb-8">Grab the deal with our best price. Squeeze the maximum benefits from this deal of the day.</p>
+                  <div class="rating mb-8">
+                     <input type="radio" name="fruit-4-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-4-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-4-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                     <input type="radio" name="fruit-4-modal-rating" class="mask mask-star-2 bg-orange-400" checked />
+                     <input type="radio" name="fruit-4-modal-rating" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action justify-center mt-0 mb-6">
+                     <a href="#deal_of_the_day" class="btn bg-white border border-color-primary text-color-primary font-bold">Close</a>
+                     <a href="" class="btn bg-color-primary text-white hover:text-color-primary font-bold">Buy Now</a>
                   </div>
                </div>
             </div>
@@ -515,7 +594,8 @@
                      <span>
                         <h4 class="text-2xl font-extrabold">Dedicated Team</h4>
                         <hr class="border border-gray-900 w-4/12 my-4 mx-auto xl:ml-0">
-                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and
+                           fresh fruits.</p>
                      </span>
                   </div>
                </div>
@@ -528,7 +608,8 @@
                      <span>
                         <h4 class="text-2xl font-extrabold">Fresh is Best</h4>
                         <hr class="border border-gray-900 w-4/12 my-4 mx-auto xl:ml-0">
-                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and
+                           fresh fruits.</p>
                      </span>
                   </div>
                </div>
@@ -541,7 +622,8 @@
                      <span>
                         <h4 class="text-2xl font-extrabold">Gift Certificates</h4>
                         <hr class="border border-gray-900 w-4/12 my-4 mx-auto xl:ml-0">
-                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and
+                           fresh fruits.</p>
                      </span>
                   </div>
                </div>
@@ -556,7 +638,8 @@
                      <span>
                         <h4 class="text-2xl font-extrabold">Integrated Supplier</h4>
                         <hr class="border border-gray-900 w-4/12 my-4 mx-auto xl:mr-0">
-                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and
+                           fresh fruits.</p>
                      </span>
                   </div>
                </div>
@@ -569,7 +652,8 @@
                      <span>
                         <h4 class="text-2xl font-extrabold">Sustainable Practice</h4>
                         <hr class="border border-gray-900 w-4/12 my-4 mx-auto xl:mr-0">
-                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and
+                           fresh fruits.</p>
                      </span>
                   </div>
                </div>
@@ -582,7 +666,8 @@
                      <span>
                         <h4 class="text-2xl font-extrabold">The Benefits Only</h4>
                         <hr class="border border-gray-900 w-4/12 my-4 mx-auto xl:mr-0">
-                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-gray-500">Professional employees are there for you to pick the most amazing and
+                           fresh fruits.</p>
                      </span>
                   </div>
                </div>
